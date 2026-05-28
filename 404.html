@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/microfolio/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.bunny.net" />
+		<link rel="dns-prefetch" href="https://fonts.bunny.net" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script>
+			(function () {
+				try {
+					var t = localStorage.getItem('theme');
+					if (t === 'dark') document.documentElement.classList.add('dark');
+					else if (t === 'light') document.documentElement.classList.add('light');
+				} catch (e) {}
+			})();
+		</script>
+		
+		<link rel="modulepreload" href="/microfolio/_app/immutable/entry/start.CuXT7VGx.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/B2cFMagv.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/jifAquY5.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/DoOzgxMa.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/CLdl7hZU.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/BhAfNGBs.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/entry/app.Ckdj1_cS.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/D09jkNOB.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/PfeKPcgM.js">
+		<link rel="modulepreload" href="/microfolio/_app/immutable/chunks/Dgl7jE0b.js">
+	</head>
+	<body class="bg-background px-4" data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_12pzu7z = {
+						base: "/microfolio",
+						assets: "/microfolio"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/microfolio/_app/immutable/entry/start.CuXT7VGx.js"),
+						import("/microfolio/_app/immutable/entry/app.Ckdj1_cS.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
